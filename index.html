@@ -137,19 +137,30 @@
 			<!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
 			<div class="row-fluid heading">
 				<div class="span12">
-					<h1>Product</h1>
+					<h1>I3Conc</h1>
 				</div>
 			</div>
 			<div class="row-fluid subheading">
 				<div class="span12">
 					<!-- Special typography from Bootstrap for lead paragraph. -->
 					<!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-					<p class="lead">One sentence description.</p>
+					<p class="lead">Interactively explore the possible
+					interleavings in your concurrent Erlang programs.</p>
 				</div>
 			</div>
 			<div class="row-fluid pitch">
 				<div class="span5 offset1 video">
+					<!--
 					<img class="img-polaroid" src="http://placehold.it/480x300">
+					-->
+					<!--
+					<img class="img-polaroid" src="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png">
+					-->
+					<embed
+						width="480" height="300"
+						src="https://www.youtube.com/v/FpkjKN9wTKg"
+						type="application/x-shockwave-flash">
+					</embed>
 				</div>
 
 				<!-- We define a new 'actions' div to contain statistics, order,
@@ -163,17 +174,17 @@
 									 vertical layouts, illustrating media
 									 queries. -->
 								<div class="linediv-l">
-									<h3>1000</h3> <p>backers</p>
+									<h3>5</h3> <p>backers</p>
 								</div>
 							</div>
 							<div class="span4">
 								<div class="linediv-c">
-									<h3>$6000</h3> <p>of $10,000</p>
+									<h3>$20</h3> <p>of $5,000</p>
 								</div>
 							</div>
 							<div class="span4">
 								<div class="linediv-r">
-									<h3>10</h3> <p>days left</p>
+									<h3>113</h3> <p>days left</p>
 								</div>
 							</div>
 						</div>
@@ -183,9 +194,9 @@
 						<!-- http://twitter.github.io/bootstrap/components.html#progress -->
 						<div class="thermometer progress active">
 							<div class="bar bar-success" style="width:
-								60%;"></div>
+								1%;"></div>
 							<div class="bar bar-warning" style="width:
-								40%;"></div>
+								99%;"></div>
 						</div>
 					</div>
 					<div class="span6 offset3 order">
@@ -211,22 +222,22 @@
 			<!-- http://placehold.it -->
 			<div class="row-fluid section1">
 				<div class="span5 offset1 asset">
-					<img class="img-polaroid" src="http://placehold.it/480x300">
+					<!--<img class="img-polaroid"
+					src="http://placehold.it/480x300">-->
+					<img class="img-polaroid" src="http://db.tt/BY8ENxBV">
 				</div>
 				<div class="span5 copy">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Donec porta, dui sagittis hendrerit rutrum, nunc leo
-						tempus nisl, eu mollis justo velit at nunc. Fusce nec
-						egestas sem. Donec fringilla ante lectus, a pellentesque
-						lacus dignissim ac. Sed volutpat lorem ut congue
-						malesuada. In facilisis scelerisque turpis sed lacinia.
-						Donec in orci lectus. Donec auctor semper quam, eget
-						rhoncus purus fringilla id. Phasellus id nibh eu risus
-						ultrices adipiscing.  Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit. Donec porta, dui sagittis
-						hendrerit rutrum, nunc leo tempus nisl, eu mollis justo
-						velit at nunc. Fusce nec egestas sem. Donec fringilla.
+						Even though Erlang allows to easily write concurrent
+					software, it is inevitable harder to write these programs
+					without flaws than it is to write sequential programs.
+						Concuerror is a tool for systematically testing
+					concurrent Erlang programs. It provides developers with
+					additional help to test and debug their programs by showing
+					the errors that different execution orders may cause.
+					Concuerror performs this task by exploring all of the
+					possible ways that processes can interleave during the
+					execution of a program.
 					</p>
 				</div>
 			</div>
@@ -234,6 +245,19 @@
 			<div class="row-fluid section2">
 				<div class="span5 offset1 copy copy-right">
 					<p>
+						<b>I3Conc</b> is a software that aims to further help
+					developers of concurrent software in Erlang by allowing the
+					interactive exploration of the interleavings. This
+					exploration would provide additional help, such as offering
+					comparison features or giving additional information that
+					would help a developers understand why their software might
+					fail.
+					<br>
+					<br>
+						With this project, I intend to create a fully
+					functioning program that can be used for side projects and
+					industrial software alike.
+						<!--
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Donec porta, dui sagittis hendrerit rutrum, nunc leo
 						tempus nisl, eu mollis justo velit at nunc. Fusce nec
@@ -246,10 +270,11 @@
 						consectetur adipiscing elit. Donec porta, dui sagittis
 						hendrerit rutrum, nunc leo tempus nisl, eu mollis justo
 						velit at nunc. Fusce nec egestas sem. Donec fringilla.
+						-->
 					</p>
 				</div>
 				<div class="span5 asset">
-					<img class="img-polaroid" src="http://placehold.it/480x300">
+					<img class="img-polaroid" src="http://i.imgur.com/RlOgO.jpg">
 				</div>
 			</div>
 
@@ -266,12 +291,13 @@
 									data-toggle="collapse"
 									data-parent="#accordion2"
 									href="#collapseOne">
-									What does FAQ stand for?
+									What does I3Conc stand for?
 								</a>
 							</div>
 							<div id="collapseOne" class="accordion-body collapse">
 								<div class="accordion-inner">
-									Frequently Asked Question.
+									Interactive Interleaving Inspector for
+									Concuerror.
 								</div>
 							</div>
 						</div>
@@ -281,12 +307,51 @@
 									data-toggle="collapse"
 									data-parent="#accordion2"
 									href="#collapseTwo">
-									What's a Frequently Asked Question?
+									Why is this project useful?
 								</a>
 							</div>
 							<div id="collapseTwo" class="accordion-body collapse">
 								<div class="accordion-inner">
-									A question which is commonly asked by users.
+									It will allow the users of
+									<em>Concuerror</em> to analyze and
+									understand how their code functions with
+									more ease.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle"
+									data-toggle="collapse"
+									data-parent="#accordion2"
+									href="#collapseThree">
+									Is there a non-interactive version that I
+									can use?
+								</a>
+							</div>
+							<div id="collapseThree" class="accordion-body collapse">
+								<div class="accordion-inner">
+									Yes, there is! It can be found in
+									<a href="https://github.com/dsmccain/viconc">
+										this link</a>.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle"
+									data-toggle="collapse"
+									data-parent="#accordion2"
+									href="#collapseFour">
+									Where can I find <em>Concuerror</em>?
+								</a>
+							</div>
+							<div id="collapseFour" class="accordion-body collapse">
+								<div class="accordion-inner">
+									It can be found in
+									<a
+										href="https://github.com/mariachris/Concuerror">
+										Github</a>.
 								</div>
 							</div>
 						</div>
